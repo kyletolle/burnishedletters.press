@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Trying out color schemes from https://www.canva.com/learn/100-color-combinations/. Using #02 Subdued & Professional. */
+
+body {
+  background: #EFEFEF;
+  color: #2A3132; /* Shadow */
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+}
+
+header {
+  text-align: center;
+  vertical-align: middle;
+  height: 5em;
+  background: #EFEFEF;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #A43820; /* Red Clay */
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+header h1 {
+  font-size: 2em;
+  color: #763626; /* Autumn Foliage */
+
+  border-bottom: 2px solid currentColor;
+  display: inline-block;
+  line-height: 0.9;
+}
+
+.centered-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  margin: 0 auto;
+}
+
+section {
+  /* background: #90AFC5; /1* Mist *1/ */
+  background: #C6D8E4;
+  max-width: 45em;
+  margin: 0 auto;
+  padding: 1em;
+  margin-bottom: 1em;
+
+  border: 3px solid #e0e0e0;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  /* border: 3px solid #336B87; /1* Stone *1/ */
+}
+
+a:link {
+  color: #FB6542;
+}
+
+a:visited {
+  color: #DE7A22;
+}
+
+section p {
+  padding-top: .5em;
+  text-indent: 1em;
+}
+
+#books img {
+  /* Need some padding between images when there is more than one book. */
+  /* padding: .5em; */
+}
+
+footer {
+  background: #EFEFEF;
+  text-align: center;
+  font-size: .85em;
+}
