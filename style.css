@@ -19,7 +19,6 @@ header {
   text-align: center;
   vertical-align: middle;
   height: 5em;
-
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -53,8 +52,6 @@ section {
   background: #EFEFEF;
   margin: 0 auto;
   padding: 1em;
-  margin-bottom: 1em;
-
 }
 
 a:link {
@@ -73,15 +70,8 @@ section p {
   padding-top: 1em;
 }
 
-#books img {
-  /* Need some padding between images when there is more than one book. */
-  /* padding: .5em; */
-}
-
 footer {
-  /* background: #336B87; /1* Stone *1/ */
-  /* background: #90AFC5; /1* Mist *1/ */
-  /* background: #e0e0e0; */
   text-align: center;
   font-size: .85em;
 }
+
