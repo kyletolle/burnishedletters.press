@@ -10,18 +10,20 @@ body {
   color: #2A3132; /* Shadow */
   font-family: 'EB Garamond', serif;
   font-size: 20px;
+  min-width: 450px;
 }
 
 header {
+  height: auto;
+  background-color: #C6D8E4;
   text-align: center;
   vertical-align: middle;
   height: 5em;
-  background: #EFEFEF;
 
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #A43820; /* Red Clay */
+  color: #763626; /* Autumn Foliage */
 }
 
 h1 {
@@ -30,8 +32,7 @@ h1 {
 
 header h1 {
   font-size: 2em;
-  color: #763626; /* Autumn Foliage */
-
+  color: #A43820; /* Red Clay */
   border-bottom: 2px solid currentColor;
   display: inline-block;
   line-height: 0.9;
@@ -48,31 +49,28 @@ main {
 }
 
 section {
-  /* background: #90AFC5; /1* Mist *1/ */
-  background: #C6D8E4;
-  max-width: 45em;
+  text-align: center;
+  background: #EFEFEF;
   margin: 0 auto;
   padding: 1em;
   margin-bottom: 1em;
 
-  border: 3px solid #e0e0e0;
-  -moz-border-radius: 6px;
-  -webkit-border-radius: 6px;
-  border-radius: 6px;
-  /* border: 3px solid #336B87; /1* Stone *1/ */
 }
 
 a:link {
-  color: #FB6542;
+  color: #A43820; /* Red Clay */
 }
 
-a:visited {
-  color: #DE7A22;
+a:hover, a:visited {
+  color: #763626; /* Autumn Foliage */
 }
 
 section p {
   padding-top: .5em;
-  text-indent: 1em;
+}
+
+#toaes {
+  padding-top: 1em;
 }
 
 #books img {
@@ -81,7 +79,9 @@ section p {
 }
 
 footer {
-  background: #EFEFEF;
+  /* background: #336B87; /1* Stone *1/ */
+  /* background: #90AFC5; /1* Mist *1/ */
+  /* background: #e0e0e0; */
   text-align: center;
   font-size: .85em;
 }
