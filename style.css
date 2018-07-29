@@ -30,8 +30,8 @@ h1 {
 header h1 {
   font-size: 2em;
   color: #A43820; /* Red Clay */
-  width: 180px;
   margin: .5em;
+  width: 180px;
 }
 
 .centered-items {
@@ -80,7 +80,13 @@ footer {
 
 @media (min-width: 470px) {
   header h1 {
-    width: 470px;
+    width: 430px;
+  }
+}
+
+@media (min-width: 500px) {
+  header h1 {
+    width: 500px;
   }
 }
 
